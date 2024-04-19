@@ -11,6 +11,11 @@ import 'package:latihan_flutter_1/widgets/soal_17.dart';
 import 'package:latihan_flutter_1/widgets/soal_18.dart';
 import 'package:latihan_flutter_1/widgets/soal_19.dart';
 import 'package:latihan_flutter_1/widgets/soal_2.dart';
+import 'package:latihan_flutter_1/widgets/soal_20.dart';
+import 'package:latihan_flutter_1/widgets/soal_21.dart';
+import 'package:latihan_flutter_1/widgets/soal_22.dart';
+import 'package:latihan_flutter_1/widgets/soal_23.dart';
+import 'package:latihan_flutter_1/widgets/soal_24.dart';
 import 'package:latihan_flutter_1/widgets/soal_3.dart';
 import 'package:latihan_flutter_1/widgets/soal_4.dart';
 import 'package:latihan_flutter_1/widgets/soal_5.dart';
@@ -30,7 +35,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Soal19(),
+      home: Soal24(),
     );
   }
 }
