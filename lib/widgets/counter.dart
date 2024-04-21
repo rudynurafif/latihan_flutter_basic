@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
+class CounterWidget extends StatefulWidget {
+  const CounterWidget({super.key});
 
   @override
-  State<MyWidget> createState() => _MyWidgetState();
+  State<CounterWidget> createState() => _CounterWidgetState();
 }
 
-class _MyWidgetState extends State<MyWidget> {
+class _CounterWidgetState extends State<CounterWidget> {
   @override
   int angka = 0;
 
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Basic Stateful Widget'),
+          title: Text('Inc Dec App'),
           centerTitle: true,
           backgroundColor: Colors.amber,
         ),
@@ -34,14 +34,16 @@ class _MyWidgetState extends State<MyWidget> {
                 children: [
                   ElevatedButton(
                       onPressed: () {
-                        angka--;
-                        setState(() {});
+                        setState(() {
+                          angka--;
+                        });
                       },
                       child: Icon(Icons.remove)),
                   ElevatedButton(
                       onPressed: () {
-                        angka++;
-                        setState(() {});
+                        setState(() {
+                          angka++;
+                        });
                       },
                       child: Icon(Icons.add))
                 ],
