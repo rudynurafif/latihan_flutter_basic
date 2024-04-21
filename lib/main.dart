@@ -23,6 +23,7 @@ import 'package:latihan_flutter_1/widgets/soal_6.dart';
 import 'package:latihan_flutter_1/widgets/soal_7.dart';
 import 'package:latihan_flutter_1/widgets/soal_8.dart';
 import 'package:latihan_flutter_1/widgets/soal_9.dart';
+import 'package:latihan_flutter_1/widgets/stateful.dart';
 
 void main() {
   runApp(MyApp());
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Soal24(),
+      home: MyWidget(),
     );
   }
 }
